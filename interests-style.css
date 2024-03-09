@@ -1,0 +1,16 @@
+.interests-wrapper{
+    padding-left: 60px;
+    padding-right: 350px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .interests-bottom{
+    display: flex;
+    justify-content: space-between;
+ }
+ .interests-trip{
+    display: flex;
+    flex: 1;
+ }
