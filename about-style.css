@@ -1,5 +1,9 @@
+.about-wrapper{
+    border-bottom: 1px solid #868e96;
+}
 .about{
-   border-bottom: 1px solid black; 
+   padding-left: 60px;
+   padding-right: 350px;
    height: 100vh;
    display: flex;
    flex-direction: column;
