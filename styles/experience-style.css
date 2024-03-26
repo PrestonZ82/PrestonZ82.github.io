@@ -6,10 +6,12 @@
    flex-direction: column;
    justify-content: center;
    border-bottom: 1px solid #868e96;
+   min-width: 1500;
 }
 .experience{
     display: flex;
     padding-bottom: 80px;
+    min-width: 500px;
 }
 .experience-header{
     font-weight: 700;
@@ -20,7 +22,6 @@
     BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,
     sans-serif,'Apple Color Emoji','Segoe UI Emoji',
     'Segoe UI Symbol','Noto Color Emoji';
-    
 }
 .dot{
     font-size: 100px;

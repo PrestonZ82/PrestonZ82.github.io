@@ -19,6 +19,7 @@
 }
 .skills{
     margin-bottom: 100px;
+    min-width: 950px;
 }
 .section-header{
     color: #343a40;
