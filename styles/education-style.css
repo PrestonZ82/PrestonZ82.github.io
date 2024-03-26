@@ -19,6 +19,7 @@
  }
  .education{
    margin-bottom: 80px;
+   min-width: 1000px;
  }
  .education-degree{
     display: flex;
