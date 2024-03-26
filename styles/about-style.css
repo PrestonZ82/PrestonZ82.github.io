@@ -9,7 +9,8 @@
    flex-direction: column;
    justify-content: center;
 }
-.first-name{
+.name-container{
+    display: flex;
     font-family: 'Saira Extra Condensed'
     ,-apple-system,BlinkMacSystemFont,'Segoe UI'
     ,Roboto,'Helvetica Neue',Arial,sans-serif,
@@ -17,13 +18,14 @@
     ,'Noto Color Emoji';
     font-weight: 700;
     font-size: 96px;
-    color: #343a40;
     line-height: 1px;
     margin-bottom: 25px;
 }
+.first-name{
+    color: #343a40;
+    margin-right: 20px;
+}
 .last-name{
-    font-weight: 700;
-    font-size: 96px;
     color: #13294B;
 }
 .personal-info-location{
@@ -35,6 +37,7 @@
     font-size: 24px;
     font-weight: 500;
     color: #868e96;
+    min-width: 510px;
 }
 .personal-info-contact{
     color: #13294B;
@@ -49,7 +52,8 @@
     font-weight: 1px;
     color: #868e96;
     margin-bottom: 60px;
-
+    min-width: 510px;
+    max-width: 1125px;
 }
 .about-icons{
     display: inline-block;
@@ -92,4 +96,7 @@
 }
 .about-icons:hover{
     opacity: 0.75;
+}
+.icon-container{
+    min-width: 500px;
 }
